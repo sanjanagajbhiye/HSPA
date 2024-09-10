@@ -2,8 +2,40 @@ h1{
     font-weight: normal;
 }
 
-.propImg{
-    height: 200px;
-    width: 250px;
-    align-self: center;
+.card-img-wrapper {
+    overflow: hidden;
+    position: relative; /* Ensure it respects the boundaries */
+    width: 100%; /* Set width to fit the card */
+    height: 200px; /* Define a fixed height */
+}
+
+.card-img-wrapper img {
+    width: 100%; /* Make the image fit within the wrapper */
+    height: 100%; /* Ensure it scales correctly */
+    object-fit: cover; /* Ensures image fills the container without stretching */
+    transition: transform 0.5s ease-out; /* Smooth transition */
+}
+
+.card-img-wrapper:hover img {
+    transform: scale(1.2); /* Apply scaling to the image on hover */
+    opacity: .5;
+}
+
+.member-icons{
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0;
+}
+
+.card-img-wrapper:hover .member-icons{
+    bottom: 0;
+    opacity: 1;
+}
+
+.animate{
+    transition: all 0.3s ease-in-out;
 }
