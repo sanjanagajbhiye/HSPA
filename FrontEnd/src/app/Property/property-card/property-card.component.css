@@ -2,6 +2,7 @@ h1{
     font-weight: normal;
 }
 
+
 .card-img-wrapper {
     overflow: hidden;
     position: relative; /* Ensure it respects the boundaries */

@@ -1,0 +1,57 @@
+[
+    {
+        "Id":1,
+        "Name":"Birla House",
+        "Type": "House",
+        "Price":"120000"
+    },
+    {
+        "Id":2,
+        "Name":"Kim House",
+        "Type": "House",
+        "Price":"178000"
+    },
+    {
+        "Id":3,
+        "Name":"Tata House",
+        "Type": "House",
+        "Price":"6767"
+    },
+    {
+        "Id":4,
+        "Name":"Ambani House",
+        "Type": "House",
+        "Price":"37326"
+    },
+    {
+        "Id":5,
+        "Name":"GokulDham",
+        "Type": "Apartment",
+        "Price":"98533"
+    },
+    {
+        "Id":6,
+        "Name":"Pent House",
+        "Type": "677",
+        "Price":"120000"
+    },
+    {
+        "Id":7,
+        "Name":"Nath Villa",
+        "Type": "Villa",
+        "Price":"120000"
+    },
+    {
+        "Id":8,
+        "Name":"Birla House",
+        "Type": "Villa",
+        "Price":"558"
+    },
+    {
+        "Id":9,
+        "Name":"Gulmohar Heights",
+        "Type": "Apartment",
+        "Price":"120000"
+    }
+
+]

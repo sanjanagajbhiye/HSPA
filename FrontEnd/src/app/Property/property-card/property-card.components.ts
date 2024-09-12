@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input, input } from "@angular/core";
 
 @Component({
 selector:'app-property-card',
@@ -7,12 +7,6 @@ styleUrl:'property-card.component.css'
 })
 
 export class PropertyCardComponent{
-    //string interpolation
-    Property: any = {
-        "id":1,
-        "price":120000,
-        "Name":"Birla House",
-        "Type":"House"
-
-    }
+  
+    @Input() property : any
 }
