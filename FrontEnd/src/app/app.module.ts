@@ -10,11 +10,13 @@ import { PropertyListComponent } from './Property/property-list/property-list.co
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HousingService } from './Services/housing.service';
 import { AddPropertyComponent } from './Property/add-property/add-property.component';
+import { PropertyDetailsComponent } from './Property/property-details/property-details.component';
 
 
 const appRoutes: Routes = [
   { path: '', component: PropertyCardComponent },
-
+  { path: 'rent-property', component: PropertyListComponent },
+  { path: 'property-detail/:id', component: PropertyDetailsComponent },
   { path: 'property-list', component: PropertyListComponent },
   { path: 'add-property', component: AddPropertyComponent },
 ];
@@ -26,7 +28,8 @@ const appRoutes: Routes = [
     PropertyCardComponent,
       NavBarComponent,
       PropertyListComponent,
-     AddPropertyComponent
+     AddPropertyComponent,
+     PropertyDetailsComponent
    ],
   imports: [
     BrowserModule,
