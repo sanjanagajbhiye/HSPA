@@ -19,6 +19,9 @@ const appRoutes: Routes = [
   { path: 'property-detail/:id', component: PropertyDetailsComponent },
   { path: 'property-list', component: PropertyListComponent },
   { path: 'add-property', component: AddPropertyComponent },
+  { path: '**', component: PropertyListComponent }, // for unsuthorized url it could be move to No data Found but as we do 
+  // not have NO DATA FOUND Component Now so we are just navigating to PropertyListComponent
+
 ];
 
 

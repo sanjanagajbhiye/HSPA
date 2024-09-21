@@ -2,8 +2,11 @@
     {
         "Id":1,
         "Name":"Birla House",
+        "SellRent" : 2,
         "Type": "House",
-        "Price":"120000"
+        "Price":"120000",
+        "Image":"pro3"
+
     },
     {
         "Id":2,
@@ -14,20 +17,26 @@
     {
         "Id":3,
         "Name":"Tata House",
+        "SellRent" : 1,
         "Type": "House",
         "Price":"6767"
     },
     {
         "Id":4,
         "Name":"Ambani House",
+        "SellRent" : 2,
         "Type": "House",
-        "Price":"37326"
+        "Price":"37326",
+        "Image":"pro4"
+
     },
     {
         "Id":5,
         "Name":"GokulDham",
+        "SellRent" : 1,
         "Type": "Apartment",
-        "Price":"98533"
+        "Price":"98533",
+        "Image":"pro4"
     },
     {
         "Id":6,

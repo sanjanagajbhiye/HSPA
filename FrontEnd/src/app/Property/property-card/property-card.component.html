@@ -2,7 +2,9 @@
     <div class="">
         <div class="card col-sm-3 shadow-lg p-3"  style="background-color:lavenderblush">  -->
             <div class="card-img-wrapper">
-                <img class="card-img-top" src="assets/images/HouseOne.jpg">
+                <img *ngIf="property.Image" class="card-img-top" src="assets/images/{{property.Image}}.jpg">
+                <img *ngIf="!property.Image" class="card-img-top" src="assets/images/HouseOne.jpg">
+
                 <ul class="list-inline text-center member-icons animate">
                     <li class="list-inline-item">
                         <button class="btn btn-primary">
